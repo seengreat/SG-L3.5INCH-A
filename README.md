@@ -36,11 +36,12 @@ __Specifications__
 |TP_CS	|D5|	PB4|	Touch Panel Chip Select|
 |TP_IRQ	|D4|	PB5|	Touch Panel Interrupt|
 |TP_BUSY	|D3|	PB3|	Touch Screen Busy Signal|<br>
-## 4.2 Resource Profile
+Table 2-1:  Module Interface Definition<br>
+## 2.2 Resource Profile
 ![SG-L3.5INCH-A resource profile.jpg](https://github.com/seengreat/SG-L3.5INCH-A/blob/main/SG-L3.5INCH-A%20resource%20profile.jpg)<br>
-                       Figure 4-1 Resource Overview<br>
-## 4.3 Example Program Usage
-### 4.3.1 Arduino UNO 
+                       Figure 2-1 Resource Overview<br>
+## 2.3 Example Program Usage
+### 2.3.1 Arduino UNO 
 Hardware Interface Configuration Description<br>
 Module to Arduino UNO Pin Connection Definition Table：<br>
 |Label	|Arduino UNO	|Description|
@@ -59,7 +60,7 @@ Module to Arduino UNO Pin Connection Definition Table：<br>
 |TP_IRQ	|D4	|Touch Panel Interrupt|
 |TP_BUSY	|D3	|Touch Screen Busy Signal|<br>
 
-Table 4-2: Module to Arduino UNO Pin Connection Definition<br>
+Table 2-2: Module to Arduino UNO Pin Connection Definition<br>
 If you are using an Arduino board that has an ICSP interface, all positions of the ICSP interface DIP switch (as shown in the item 4 of Pin Connection Definition Figure) can be set to the OFF position. If your Arduino board does not have an ICSP interface, all positions of the ICSP interface DIP switch should be set to the ON position.<br>
 Since this example program was verified on the Arduino UNO R3 board, the SRAM capacity of this board is only 2KB. Thus, the example program is divided into two project files: image display and touch.<br>
 
